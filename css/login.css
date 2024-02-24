@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../recursos\ maquetacion/login/bg-login.png); /* Reemplaza 'ruta/a/la/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 400px;
+    height: 420px;
+    background-color: rgba(69, 113, 178, 0.8); /* Fondo blanco con transparencia */
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    
+}
+
+.header img {
+    width: 100%;
+    
+    padding: 0px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    width: 50px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto;
+    position: absolute;
+    display: block;
+    left: 48%;
+    top: 30%;
+    border-radius: 50px;
+    
+}
+
+.logo img {
+    width: 150px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: 150px;
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 4%;
+    
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 40px;
+    border: 1px solid #ffffff;
+    
+    box-sizing: border-box;
+}
+
+label {
+    width: 80%;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.register {
+    text-align: center;
+    font-size: 13px;
+}
+
+.register span {
+    color: #ffffff;
+}
+
+.register a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
